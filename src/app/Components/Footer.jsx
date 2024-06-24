@@ -83,11 +83,11 @@ const Footer = () => {
                                 Link
                             </p>
                             <nav className="flex flex-col mt-4 space-y-2  text-sm text-[#B9C0C1] font-normal">
-                                <a className="hover:opacity-75" href> Trending Tours </a>
-                                <a className="hover:opacity-75" href> Flight Booking </a>
-                                <a className="hover:opacity-75" href> Testimonial </a>
-                                <a className="hover:opacity-75" href> Our Team </a>
-                                <a className="hover:opacity-75" href> Contact </a>
+                                <a className="hover:opacity-75" href=''> Trending Tours </a>
+                                <a className="hover:opacity-75" href=''> Flight Booking </a>
+                                <a className="hover:opacity-75" href=''> Testimonial </a>
+                                <a className="hover:opacity-75" href=''> Our Team </a>
+                                <a className="hover:opacity-75" href=''> Contact </a>
                             </nav>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Footer = () => {
             {/*TravelAqsa sub Footer */}
             <footer className="footer footer-center p-4 text-[15px] bg-[#fffaf8] border-t text-[#B9C0C1]">
                 <aside>
-                    <p>© 2024 DevGenius Technologies Ltd. Trademarks and brands are the property of their respective owners.</p>
+                    <a target='_blank' href='https://www.devgenius.app/'>© 2024 TravelAqsa! - 2024 Created by DevGenius Technologies Ltd.</a>
                 </aside>
             </footer>
         </div>

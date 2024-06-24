@@ -27,8 +27,8 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="discover" smooth={true}
-              className="focus:text-[#FE5B38] active:text-[#FE5B38]"
+              to="discover" smooth={true}  offset={-90} 
+              className="focus:text-[#FE5B38]  active:text-[#FE5B38]"
             >
              Discover
               
@@ -36,7 +36,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="destination" smooth={true}
+              to="destination" smooth={true} offset={-90} 
               className="focus:text-[#FE5B38] active:text-[#FE5B38]"
             >
              Destination
@@ -46,7 +46,7 @@ const Navbar = () => {
 
           <li>
             <Link
-              to="about" smooth={true}
+              to="about" smooth={true} offset={-90} 
               className="focus:text-[#FE5B38] active:text-[#FE5B38]"
             >
               About
@@ -55,7 +55,7 @@ const Navbar = () => {
 
           <li>
             <Link
-              to="contact" smooth={true}
+              to="contact" smooth={true} offset={-90} 
               className="focus:text-[#FE5B38] active:text-[#FE5B38]"
             >
              Contact
@@ -81,14 +81,14 @@ const Navbar = () => {
                 }`}
             >
                  <li>
-            <Link hto='/' smooth={true} className=" focus:text-[#FE5B38] text-[#0B0951] active:text-[#FE5B38]">
+            <Link hto='/' smooth={true} offset={-90} className=" focus:text-[#FE5B38] text-[#0B0951] active:text-[#FE5B38]">
               Home
             </Link>
           </li>
          
           <li>
             <Link
-               to="discover" smooth={true}
+               to="discover" smooth={true} offset={-90}
               className="focus:text-[#FE5B38] text-[#0B0951] active:text-[#FE5B38]"
             >
               Discover
@@ -96,7 +96,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="destination" smooth={true}
+              to="destination" smooth={true} offset={-90}
               className="focus:text-[#FE5B38] text-[#0B0951] active:text-[#FE5B38]"
             >
              Destination
@@ -105,7 +105,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-               to="about" smooth={true}
+               to="about" smooth={true} offset={-90}
               className="focus:text-[#FE5B38] text-[#0B0951] active:text-[#FE5B38]"
             >
               About
@@ -114,7 +114,7 @@ const Navbar = () => {
 
           <li>
             <Link
-              to="contact" smooth={true}
+              to="contact" smooth={true} offset={-90}
               className="focus:text-[#FE5B38] text-[#0B0951] active:text-[#FE5B38]"
             >
              Contact

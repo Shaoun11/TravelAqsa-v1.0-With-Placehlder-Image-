@@ -12,9 +12,9 @@ import image_mail from'../../../public/Discover Image and Icon/mail_Image.svg'
 const Discover = () => {
     return (
         //TravelAqsa Discover section code start
-        <div id='discover'>
+        <div id='discover'  >
             {/* Discover section button */}
-            <div className="text-center" >
+            <div  className="text-center" >
                 <button className="bg-[#FE5B38] hover:border-[#FE5B38] hover:border hover:text-[#FE5B38] hover:bg-[#FFFF] btn rounded-full text-center  w-[137px] h-[48px] text-white border-0">
 
                     Discover
